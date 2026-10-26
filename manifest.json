@@ -1,0 +1,23 @@
+{
+  "type": "AgentSiteManifest",
+  "algorithm": "sha256",
+  "site": "https://norai.si/",
+  "files": {
+    "index.html": "c06e8307a3a10fc366d006318dbd7bf568ec4af391305c887d10fd8723d9f5e1",
+    "norai.json": "f6a11851dfc57e75f1a04d5264f0a703f9d9df06fd6bf0b43fe4ba104536e188",
+    "revocations.json": "b9a636506c05e02fec8bf65968cb4ca162e65b1c49dc33f8a953201f49b3da7c",
+    "llms.txt": "1893d09bba423d8a26461b0167a88c0a37f1391bc10a39551ede17f8b7e60c2b",
+    "_headers": "011767a0fd7d6de8a595ebb211340ac7265cc72e40c7b21b2e6797eeea659cab",
+    ".well-known/agent-card.json": "2a40ebeb5b8cc04bde1941c5d5269ac2ddde22613c78fed480a5b298f8ed4698",
+    ".well-known/did.json": "db5bf3cd8cb9155f1bd2d1b92c871f8997654e792baddc6a452133e4a05b21fa",
+    ".well-known/http-message-signatures-directory": "16e0881a8bafcded77af4ce6806641434151c9d6a870a8eee6749c16d9e30f72",
+    ".well-known/jwks.json": "7234132e282b3772a1f618e572468e602dfb9abb82ceebcbc801d63659a062ba",
+    ".well-known/security.txt": "135aadd172b0354047d50a32d70cec60215058a0ff7a9ef7d468e54ebabd8ad7",
+    "pgp/operator.asc": "c6c285f3450563aa2c79fdbdf8b3bec76e9f30b691bb0cc8ff8e6b5001c47b76",
+    "images/favicon.png": "c04fc18a09002a0e1c74da72e4897d2a98cfc1f7b294c61ab468b691e564636a",
+    "images/logo.png": "78cbb846ae04446b0fbcb896c317e62c737d52eb8f5662f2c3d2ae65cf9189ed",
+    "images/mark.png": "1b233fb05e05dbcbe1f7611bc55ee5a4b7bf8b00a6dc2755ef66485b12c8737e",
+    "styles/credential.css": "9df7b5c24f8dd3cc7abfae5ac9c65c497e6ed7396760fe6be4f5601cf82335c6",
+    "scripts/credential.js": "dde82a3d44c5d13e8e7376f6b97a75eb9330c154a10e733a4f5c9dcb4656eb6f"
+  }
+}

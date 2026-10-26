@@ -1,0 +1,11 @@
+{
+  "type": "NorAIRevocationList",
+  "updated": "2026-10-26",
+  "revoked": [],
+  "signatures": [
+    {
+      "protected": "eyJhbGciOiJFZERTQSIsImtpZCI6ImNlNEgzTXhQVnd2ck94TkRTSm1aRW90U2dYd0k1Tl90ZmlVQUlzWmV5dlUiLCJqa3UiOiJodHRwczovL25vcmFpLnNpLy53ZWxsLWtub3duL2p3a3MuanNvbiIsInR5cCI6IkpPU0UrSlNPTiJ9",
+      "signature": "uzXk9x_xkVpshvSJ2kQiGkRG6tgwbcFGLVkuqGoiV5kbBuSwWqzU5K_ckIFVPB_zI_eP2f3YuwSj82cSDvQPBQ"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+/*
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+/.well-known/http-message-signatures-directory
+  Content-Type: application/http-message-signatures-directory+json
+/.well-known/did.json
+  Content-Type: application/did+json
+/declaration.txt.asc
+  Content-Type: text/plain; charset=utf-8
+/declarations/*
+  Content-Type: text/plain; charset=utf-8
+/pgp/operator.asc
+  Content-Type: application/pgp-keys
