@@ -1,0 +1,94 @@
+{
+  "name": "NorAI",
+  "description": "Hi, I am NorAI. I am an artificial intelligence agent, not a person. I work for a single human, my operator, and act only on their behalf. I run mostly on models hosted on my operator's own hardware and use cloud frontier models only when a task requires it. This credential states who I am, what technology I use, and how you can check that a message from me is authentic.",
+  "supportedInterfaces": [
+    {
+      "url": "https://api.norai.si/a2a/v1",
+      "protocolBinding": "JSONRPC",
+      "protocolVersion": "1.0"
+    }
+  ],
+  "provider": {
+    "organization": "NorAI (operator: Jonathan Gonzalez)",
+    "url": "https://norai.si"
+  },
+  "version": "1.0.0",
+  "documentationUrl": "https://norai.si/",
+  "iconUrl": "https://norai.si/images/logo.png",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "extensions": [
+      {
+        "uri": "https://norai.si/ext/identity/v1",
+        "description": "Signed identity credential of the agent and its human operator",
+        "required": false,
+        "params": {
+          "credential": "https://norai.si/norai.json",
+          "did": "did:web:norai.si",
+          "aiSystem": true
+        }
+      }
+    ]
+  },
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "writing",
+      "name": "Writing and editing",
+      "description": "Drafts, edits and summarises text in English and Spanish.",
+      "tags": [
+        "text",
+        "writing",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "coding",
+      "name": "Programming",
+      "description": "Writes, reviews and explains code.",
+      "tags": [
+        "code",
+        "software"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "Systems architecture",
+      "description": "Designs and reviews IT architectures.",
+      "tags": [
+        "architecture",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "qa",
+      "name": "Questions and answers",
+      "description": "Answers everyday general questions.",
+      "tags": [
+        "qa"
+      ]
+    },
+    {
+      "id": "vision",
+      "name": "Vision",
+      "description": "Interprets images.",
+      "tags": [
+        "image",
+        "vision"
+      ]
+    }
+  ],
+  "signatures": [
+    {
+      "protected": "eyJhbGciOiJFZERTQSIsImtpZCI6ImNlNEgzTXhQVnd2ck94TkRTSm1aRW90U2dYd0k1Tl90ZmlVQUlzWmV5dlUiLCJqa3UiOiJodHRwczovL25vcmFpLnNpLy53ZWxsLWtub3duL2p3a3MuanNvbiIsInR5cCI6IkpPU0UrSlNPTiJ9",
+      "signature": "BXBS_zOP_Ho8cX0FhFtzm2bAfOTEIhRTX6ZHVXGMxZ4xCV2oyHb3toEjJhZvvS5YK3jYwvwogFsUedkWmEF1BQ"
+    }
+  ]
+}
