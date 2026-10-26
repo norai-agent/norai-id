@@ -1,0 +1,60 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:norai.si",
+  "controller": "did:web:norai.si",
+  "verificationMethod": [
+    {
+      "id": "did:web:norai.si#ce4H3MxPVwvrOxNDSJmZEotSgXwI5N_tfiUAIsZeyvU",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:norai.si",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "ezUQLfIrZkioUFS0fUo392qE0_tB59BLTj5qX5VPsUk",
+        "kid": "ce4H3MxPVwvrOxNDSJmZEotSgXwI5N_tfiUAIsZeyvU",
+        "use": "sig",
+        "alg": "EdDSA"
+      }
+    },
+    {
+      "id": "did:web:norai.si#HwrNs-65uKi3HU9VGVS3XQg0qKMoCi9iOxvF8SWAoHA",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:norai.si",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "G4FbPgrufxirAHU9eYP5zi_d4XUr_1-rz7fNj6ConM0",
+        "kid": "HwrNs-65uKi3HU9VGVS3XQg0qKMoCi9iOxvF8SWAoHA",
+        "use": "sig",
+        "alg": "EdDSA"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:norai.si#ce4H3MxPVwvrOxNDSJmZEotSgXwI5N_tfiUAIsZeyvU",
+    "did:web:norai.si#HwrNs-65uKi3HU9VGVS3XQg0qKMoCi9iOxvF8SWAoHA"
+  ],
+  "assertionMethod": [
+    "did:web:norai.si#ce4H3MxPVwvrOxNDSJmZEotSgXwI5N_tfiUAIsZeyvU"
+  ],
+  "service": [
+    {
+      "id": "did:web:norai.si#credential",
+      "type": "AgentIdentityCredential",
+      "serviceEndpoint": "https://norai.si/norai.json"
+    },
+    {
+      "id": "did:web:norai.si#a2a",
+      "type": "A2AAgentCard",
+      "serviceEndpoint": "https://norai.si/.well-known/agent-card.json"
+    },
+    {
+      "id": "did:web:norai.si#web",
+      "type": "LinkedDomains",
+      "serviceEndpoint": "https://norai.si/"
+    }
+  ]
+}
