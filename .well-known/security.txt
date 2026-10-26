@@ -1,0 +1,4 @@
+Contact: mailto:info@jonathangf.com
+Expires: 2027-10-26T00:00:00Z
+Preferred-Languages: es, en
+Canonical: https://norai.si/.well-known/security.txt
